@@ -3,7 +3,8 @@ resource "aws_instance" "web" {
   instance_type   = "t2.micro"
   key_name        = "newfebkey"
   security_groups = ["linux-sg"]
-  #    count = 3
+
+  #    count = 4
 
   tags = {
     Name = "ramuser"
