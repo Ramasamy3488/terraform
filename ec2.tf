@@ -5,6 +5,7 @@ resource "aws_instance" "web" {
   security_groups = ["linux-sg"]
 
   #    count = 4
+  # from mater branch
 
   tags = {
     Name = "ramuser"
